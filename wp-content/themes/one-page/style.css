@@ -919,31 +919,35 @@ section .main_head {
 }
 .services_div .glyphicon {
     font-size: 60px;
-    border: 5px solid;
-    border-radius: 50%;
+    /*border: 5px solid;
+    border-radius: 50%;*/
     color:#ddd;
-    width: 160px;
-    height: 160px;
+    width: 140px;
+    height: 140px;
     display: inline-block;
     line-height: 2.4;
     margin-bottom: 10px;
     color: #292929;
 }
 .services_div .services_item span.one {
-    color: #e6557c;
-    border-color: #e6557c;
+    color: #ffffff;
+    /*border-color: #e6557c;*/
+    background-color: #bca480;
 }
 .services_div .services_item span.two {
-    color: #00b9db;
-    border-color: #00b9db;
+    color: #ffffff;
+    /*border-color: #e6557c;*/
+    background-color: #bca480;
 }
 .services_div .services_item span.three {
-    color: #dcaf31;
-    border-color: #dcaf31;
+    color: #ffffff;
+    /*border-color: #e6557c;*/
+    background-color: #bca480;
 }
 .services_div .services_item span.four {
-    color: #9792d4;
-    border-color: #9792d4;
+    color: #ffffff;
+    /*border-color: #e6557c;*/
+    background-color: #bca480;
 }
 
 .services_div .services_item h4 {
