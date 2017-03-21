@@ -46,6 +46,137 @@ if (isset($_POST['submitted'])) {
 $contact = Onepage_Data::get_instance()->contact(); //print_r($contact);
 if (!empty($contact['onepage_contact_main_heading'])) {
     ?>
+<!-- contact Section -->
+    <section id="profile" class="section_11">
+        <div class="profile_div" <?php echo "style='background-color:" . esc_attr($contact['onepage_contact_bg_color']) . "'"; ?>>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="main_head animated fade_in_up">CAREER</h2>
+                        <!--hr class="team_sep animated fade_in_up" <?php //echo "style='background-color:" . esc_attr($contact['onepage_contact_hr_color']) . "'"; ?> -->
+                        <p class="main_desc animated fade_in_up" style="margin-bottom:10px;">We invite the ignited minds to work with us in different capacities at different levels ranging from interns to senior consultants and associates.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="profile_wrapper">
+                        <div class="col-md-5">
+                            <div class="profile_content">
+                                <?php
+                                if (isset($emailSent) && $emailSent == true) {
+                                    ?>
+                                    <div class="thanks">
+                                        <p><?php _e('Thanks, your email was sent successfully.', 'one-page'); ?></p>
+                                    </div>
+                                    <?php
+                                } else {
+                                    if (isset($hasError)) {
+                                        ?>
+                                        <p class="error"><?php _e('Sorry, an error occured.', 'one-page'); ?> </p>
+                                        <?php
+                                    }
+                                }
+                                ?>
+                                <form class="profileform" action="#" method="post">
+                                    <div class="form-group">
+                                        <input class="form-control text animated fade_in_up" type="text" name="contactName" value="" placeholder="<?php echo _e('Name', 'one-page'); ?>" style="animation-delay: .2s;<?php echo 'border-color:' . esc_attr($contact['onepage_contact_input_box_border_color']); ?>" required/>
+                                        <?php if ($nameError != '') { ?>
+                                            <span class="error"> <?php echo $nameError; ?> </span>
+                                        <?php } ?>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input class="form-control text animated fade_in_up" type="text" name="dateofBirth" value="" placeholder="<?php echo _e('Date of Birth', 'one-page'); ?>" style="animation-delay: .2s;<?php echo 'border-color:' . esc_attr($contact['onepage_contact_input_box_border_color']); ?>" required/>
+                                        <?php if ($nameError != '') { ?>
+                                            <span class="error"> <?php echo $nameError; ?> </span>
+                                        <?php } ?>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input class="form-control text animated fade_in_up" type="text" name="gender" value="" placeholder="<?php echo _e('Gender', 'one-page'); ?>" style="animation-delay: .2s;<?php echo 'border-color:' . esc_attr($contact['onepage_contact_input_box_border_color']); ?>" required/>
+                                        <?php if ($nameError != '') { ?>
+                                            <span class="error"> <?php echo $nameError; ?> </span>
+                                        <?php } ?>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input class="form-control text animated fade_in_up" type="email" name="email" value="" placeholder="<?php echo _e('Email', 'one-page'); ?>" style="animation-delay: .3s; <?php echo 'border-color:' . esc_attr($contact['onepage_contact_input_box_border_color']); ?>" required/>
+                                        <?php if ($emailError != '') { ?>
+                                            <span class="error"> <?php echo $emailError; ?> </span>
+                                        <?php } ?>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input class="form-control text animated fade_in_up" type="text" name="number" value="" placeholder="<?php echo _e('Contact Number', 'one-page'); ?>" style="animation-delay: .2s;<?php echo 'border-color:' . esc_attr($contact['onepage_contact_input_box_border_color']); ?>" required/>
+                                        <?php if ($nameError != '') { ?>
+                                            <span class="error"> <?php echo $nameError; ?> </span>
+                                        <?php } ?>
+                                    </div>
+
+
+                                    <div class="form-group">
+                                        <input class="form-control text animated fade_in_up" type="text" name="qualification" value="" placeholder="<?php echo _e('Academic Qualification', 'one-page'); ?>" style="animation-delay: .2s;<?php echo 'border-color:' . esc_attr($contact['onepage_contact_input_box_border_color']); ?>" required/>
+                                        <?php if ($nameError != '') { ?>
+                                            <span class="error"> <?php echo $nameError; ?> </span>
+                                        <?php } ?>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input class="form-control text animated fade_in_up" type="text" name="exprience" value="" placeholder="<?php echo _e('Professional Experience', 'one-page'); ?>" style="animation-delay: .2s;<?php echo 'border-color:' . esc_attr($contact['onepage_contact_input_box_border_color']); ?>" required/>
+                                        <?php if ($nameError != '') { ?>
+                                            <span class="error"> <?php echo $nameError; ?> </span>
+                                        <?php } ?>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input class="form-control text animated fade_in_up" type="text" name="job" value="" placeholder="<?php echo _e('Current Job/Position', 'one-page'); ?>" style="animation-delay: .2s;<?php echo 'border-color:' . esc_attr($contact['onepage_contact_input_box_border_color']); ?>" required/>
+                                        <?php if ($nameError != '') { ?>
+                                            <span class="error"> <?php echo $nameError; ?> </span>
+                                        <?php } ?>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input class="form-control text animated fade_in_up" type="text" name="org" value="" placeholder="<?php echo _e('Current Organization', 'one-page'); ?>" style="animation-delay: .2s;<?php echo 'border-color:' . esc_attr($contact['onepage_contact_input_box_border_color']); ?>" required/>
+                                        <?php if ($nameError != '') { ?>
+                                            <span class="error"> <?php echo $nameError; ?> </span>
+                                        <?php } ?>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input class="form-control text animated fade_in_up" type="text" name="g2g" value="" placeholder="<?php echo _e('Why G2G', 'one-page'); ?>" style="animation-delay: .2s;<?php echo 'border-color:' . esc_attr($contact['onepage_contact_input_box_border_color']); ?>" required/>
+                                        <?php if ($nameError != '') { ?>
+                                            <span class="error"> <?php echo $nameError; ?> </span>
+                                        <?php } ?>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input class="form-control text animated fade_in_up" type="text" name="address" value="" placeholder="<?php echo _e('Residential Address', 'one-page'); ?>" style="animation-delay: .2s;<?php echo 'border-color:' . esc_attr($contact['onepage_contact_input_box_border_color']); ?>" required/>
+                                        <?php if ($nameError != '') { ?>
+                                            <span class="error"> <?php echo $nameError; ?> </span>
+                                        <?php } ?>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <input  required type="file" name="cf-file" size="40" accept=".doc,.docx,.pdf"/>
+                                        
+                                        <?php if ($msgError != '') { ?>
+                                            <span class="error"> <?php echo $msgError; ?> </span>
+                                        <?php } ?>
+                                    </div>
+                                    <div class="clear"></div>
+                                    <input  class="btnSubmit animated fade_in_up" type="submit" name="submitted" value="<?php echo esc_attr($contact['onepage_contact_send_button_text']); ?>" style="animation-delay: .2s;"/>
+                                </form>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /contact Section -->
+
+
+
     <!-- contact Section -->
     <section id="contact" class="section_9">
         <div class="contact_div" <?php echo "style='background-color:" . esc_attr($contact['onepage_contact_bg_color']) . "'"; ?>>

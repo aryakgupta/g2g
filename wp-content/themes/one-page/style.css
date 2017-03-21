@@ -908,7 +908,7 @@ section .main_head {
 .frame_div .main_desc,
 .testimonial_div .main_desc,
 .pricing_div .main_desc,
-.team_div .main_desc{
+.team_div .main_desc, .profile_div .main_desc{
     margin-bottom: 60px;
     font-size: 19px;
     font-weight: normal;
@@ -1616,6 +1616,112 @@ ul.bxslider {
 .contact_div .contact_map {
     padding-left: 74px;
 }
+
+/* profile */
+
+.profile_div {
+    background: #9792d4;
+    padding: 55px 0 55px 0;
+}
+.profile_div .main_head {
+    color: #000;
+}
+.profile_div .team_sep {
+    width: 23%;
+    height: 3px;
+    background: #beb9f0;
+    border: none;
+}
+.profile_div .main_desc {
+    color: #808080;
+}
+.profile_div .contact_content {}
+.profile_div .contactform {
+    position: relative;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.profile_div .profileform .error,
+.profile_content .error{
+    color: red;
+}
+.profile_content .thanks p {
+    font-size: 18px;
+    color: #fff;
+}
+.profile_div .profileform input[type="text"],
+.profile_div .profileform input[type="email"] {
+    height: 49px;
+    border: 1px solid #ddd;
+    background: #fff;
+    margin-bottom: 39px;
+    color: #838383;
+    display: block;
+    border: 2px solid #6b8cca;
+}
+.profile_div .profileform textarea {
+    max-width: 100%;
+    height: 140px;
+    padding-top: 14px !important;
+    margin-bottom: 22px;
+    text-align: left;
+    color: #838383;
+    background: #fff;
+    margin-top: 5px;
+    border: 2px solid #6b8cca;
+}
+.profile_div .profileform input[type="text"],
+.profile_div .profileform input[type="email"],
+.profile_div .profileform textarea {
+    font-size: 16px;
+    color: #333333;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.profile_div .profileform input[type="text"]:focus,
+.profile_div .profileform input[type="email"]:focus,
+.profile_div .profileform textarea:focus {
+    border: 2px solid #514E71;
+}
+.profile_div .profileform ::-webkit-input-placeholder {
+    color: #272727;
+    font-weight: 400;
+}
+.profile_div .profileform ::-moz-placeholder {
+    color: #272727;
+    font-weight: 400;
+}
+.profile_div .profileform ::-o-placeholder {
+    color: #272727;
+    font-weight: 400;
+}
+.profile_div .profileform ::-ms-placeholder {
+    color: #272727;
+    font-weight: 400;
+}
+.profile_div .profileform input[type="submit"] {
+    color: #fff;
+    border: none;
+    padding: 7px 48px 5px 48px;
+    margin-top: 0px;
+    text-align: center;
+    background: #f5873e;
+    border-radius: 4px;
+    font-size: 19px;
+    font-weight: 600;
+    webkit-box-shadow: 0 4px 0 #a95015;
+    -moz-box-shadow: 0 4px 0 #a95015;
+    box-shadow: 0 4px 0 #a95015; 
+    border-bottom: 3px solid #a95015;
+}
+.profile_div .profileform input[type="submit"]:hover {
+    background: #D06635;
+    webkit-box-shadow: 0 4px 0 #a95015;
+    -moz-box-shadow: 0 4px 0 #a95015;
+    box-shadow: 0 4px 0 #a95015;
+}
+
 /**
  * Footer section style
  */
