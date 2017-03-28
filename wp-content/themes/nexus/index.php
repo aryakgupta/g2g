@@ -597,10 +597,11 @@
 						  <option value="phd">PhD</option>
 						  <option value="other">other</option>
 						</select>
+						<input type="text" class="form-control" id="exp" name="exp" placeholder="Your Professional Experience">
 						
 					</div>
 					<div class="col-md-6">
-						<input type="text" class="form-control" id="exp" name="exp" placeholder="Your Professional Experience">
+						
 						<input type="text" class="form-control" id="job" name="job" placeholder="Your Current Job/Position">
 						<input type="text" class="form-control" id="org" name="org" placeholder="Your Current Organization">
 						<textarea id="g2g" name="g2g" placeholder="Why G2G" class="form-control" rows="3"></textarea>
@@ -653,6 +654,7 @@
 						<form class="contact-form" >
 							<input type="text" class="form-control" id="fname" name="fname" placeholder="Your Full Name">
 							<input type="email" class="form-control" id="email" name="email" placeholder="Your E-mail">
+							<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Your Contact Number">
 							<input type="text" class="form-control" id="subj" name="subj" placeholder="Your Subject">
 							<textarea id="mssg" name="mssg" placeholder="Your Message" class="form-control" rows="10"></textarea>
 							<button class="btn btn-main btn-lg" type="submit" id="send" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Sending..."> Send</button>
