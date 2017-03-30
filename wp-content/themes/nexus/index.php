@@ -43,7 +43,7 @@
 					<div class="col-md-12">
 						<div class="section-title st-center">
 							<h3><?php echo $aboutTitle; ?></h3>
-							<p>About Nexus </p>
+							<!--p>About Nexus </p-->
 						</div>
 						<div class="block">
 							<div class="col-md-12 padd25 no-padding-top no-padding-bottom padding-left-15">
@@ -377,6 +377,9 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
+						<div class="section-title st-center">
+							<h3 style="color:#ffffff">Testimonies</h3>
+						</div>
 						<div class="testimonials-carousel">
 							<ul>
 								<li>
@@ -579,33 +582,33 @@
 				</div>
 				<form class="career-form" >
 					<div class="col-md-6">
-						<input type="text" class="form-control" id="fname" name="fname" placeholder="Your Full Name">
+						<input type="text" class="form-control" id="fname" name="fname" placeholder="Full Name">
 						<input type="text" class="form-control" id="dob" name="dob" placeholder="Date of Birth">
 						<select class="form-control" id="gender" placeholder="Gender" name="gender">
 						 <option value="">Gender</option>	
-						  <option value="male">Mage</option>
+						  <option value="male">Male</option>
 						  <option value="female">Female</option>
 						  <option value="other">other</option>
 						</select>
-						<input type="email" class="form-control" id="email" name="email" placeholder="Your E-mail">
-						<input type="text" class="form-control" id="number" name="number" placeholder="Your Contact Number">
+						<input type="email" class="form-control" id="email" name="email" placeholder="E-mail">
+						<input type="text" class="form-control" id="number" name="number" placeholder="Contact Number">
 						<select class="form-control" id="qualification"  name="qualification">
 						  <option value="">Academic Qualification</option>
-						  <option value="intermidiate">Intermidiate</option>
+						  <option value="intermediate">Intermediate</option>
 						  <option value="graduate">Graduate</option>
 						  <option value="pg">PG</option>
 						  <option value="phd">PhD</option>
 						  <option value="other">other</option>
 						</select>
-						<input type="text" class="form-control" id="exp" name="exp" placeholder="Your Professional Experience">
+						<input type="text" class="form-control" id="exp" name="exp" placeholder="Professional Experience">
 						
 					</div>
 					<div class="col-md-6">
 						
-						<input type="text" class="form-control" id="job" name="job" placeholder="Your Current Job/Position">
-						<input type="text" class="form-control" id="org" name="org" placeholder="Your Current Organization">
+						<input type="text" class="form-control" id="job" name="job" placeholder="Current Job/Position">
+						<input type="text" class="form-control" id="org" name="org" placeholder="Current Organization">
 						<textarea id="g2g" name="g2g" placeholder="Why G2G" class="form-control" rows="3"></textarea>
-						<input type="text" class="form-control" id="address" name="address" placeholder="Your Residential Address">
+						<input type="text" class="form-control" id="address" name="address" placeholder="Residential Address">
 						<input  type="file" name="cf-file" size="40" accept=".doc,.docx,.pdf"/>
 						<button class="btn btn-main btn-lg" type="submit" id="sends" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Sending..."> Send</button>
 					</div>
@@ -644,19 +647,19 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="section-title st-center">
-							<h3>Contact Us</h3>
-							<p>Get in Touch with Us</p>
+							<h3>Get in Touch with Us</h3>
+							<!--p>Get in Touch with Us</p-->
 						</div>
 					</div>
 				</div>
 				<div class="block">
 					<div class="col-md-6">
 						<form class="contact-form" >
-							<input type="text" class="form-control" id="fname" name="fname" placeholder="Your Full Name">
-							<input type="email" class="form-control" id="email" name="email" placeholder="Your E-mail">
-							<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Your Contact Number">
-							<input type="text" class="form-control" id="subj" name="subj" placeholder="Your Subject">
-							<textarea id="mssg" name="mssg" placeholder="Your Message" class="form-control" rows="10"></textarea>
+							<input type="text" class="form-control" id="fname" name="fname" placeholder="Full Name">
+							<input type="email" class="form-control" id="email" name="email" placeholder="E-mail">
+							<input type="text" class="form-control" id="mobile" name="mobile" placeholder="Contact Number">
+							<input type="text" class="form-control" id="subj" name="subj" placeholder="Subject">
+							<textarea id="mssg" name="mssg" placeholder="Message" class="form-control" rows="10"></textarea>
 							<button class="btn btn-main btn-lg" type="submit" id="send" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Sending..."> Send</button>
 						</form>
 						<div id="result-message" role="alert"></div>

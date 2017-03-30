@@ -49,7 +49,7 @@
 							<li class="active"><a href="#home">Home</a></li>
 							<li><a href="#about">About</a></li>
 							<li><a href="#vision">Vision</a></li>
-							<li><a href="#service">Service</a></li>
+							<li><a href="#service">Services</a></li>
 							<li><a href="#testimonials">Testimonies</a></li>
 							<li><a href="#career">Career</a></li>
 							<!--li><a href="#blog">Blog</a></li-->
