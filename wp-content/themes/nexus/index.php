@@ -386,11 +386,11 @@
 								<li>
 									<div class="testimonial">
 										<div class="testimonial-img">
-											<img src="<?php echo get_template_directory_uri(); ?>/images/client.jpg" alt="">
+											<img src="<?php echo get_template_directory_uri(); ?>/images/client.jpg" alt="" style="height:150px; width:150px">
 										</div>
 										<blockquote>
-											<p>Tueri tantis inter variis deterritum facta caret pleniorem, efficiat affert quiete, commodis comparat facio ponti, adolescens recta iucundius mundi nostrum viris quae utilitatibus.</p>
-											<footer>Joseph Thompson, <cite title="Source Title">Example Inc.</cite></footer>
+											<p>G2G strategies have given boost to our business and helped us build our brand presence both in retail marketplace and E-tailing market-space. Their strategies also helped us to penetrate the untrapped retail market in big way. We are delighted to be associated with them.</p>
+											<footer>Sachin Gupta, <cite title="Source Title">Bodycare International Ltd.</cite></footer>
 										</blockquote>
 									</div>
 								</li>
