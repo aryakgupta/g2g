@@ -181,6 +181,29 @@
 			</div>
 		</section-->
 
+		
+		<section class="features-desc" id="vision">
+			<?php $vision = get_post(105);
+					//echo "<pre>"; 
+     				//print_r($about);
+			    $visionTitle = $vision->post_title;
+			    $visionContent = $vision->post_content; 
+
+			?>
+			<div class="container">
+				<div class="block">
+					
+					<div class="col-md-12">
+						<h3><?php echo $visionTitle; ?></h3>
+						<?php echo $visionContent; ?>
+					</div>
+					<div class="col-md-12 mb55">
+						<img src="<?php echo get_template_directory_uri(); ?>/images/feature.png" alt="" class="img-responsive">
+					</div>
+								</div>
+			</div>
+		</section>
+
 		<section class="service" id="service">
 			<?php $service = get_post(100);
 					//echo "<pre>"; 
@@ -201,28 +224,6 @@
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-
-		<section class="features-desc" id="vision">
-			<?php $vision = get_post(105);
-					//echo "<pre>"; 
-     				//print_r($about);
-			    $visionTitle = $vision->post_title;
-			    $visionContent = $vision->post_content; 
-
-			?>
-			<div class="container">
-				<div class="block">
-					
-					<div class="col-md-12">
-						<h3><?php echo $visionTitle; ?></h3>
-						<?php echo $visionContent; ?>
-					</div>
-					<div class="col-md-12 mb55">
-						<img src="<?php echo get_template_directory_uri(); ?>/images/feature.png" alt="" class="img-responsive">
-					</div>
-								</div>
 			</div>
 		</section>
 
@@ -576,7 +577,7 @@
 					<div class="col-md-12">
 						<div class="section-title st-center">
 							<h3>Career</h3>
-							<!--p>News from Blog</p-->
+							<p>WE BELIEVE in C2C : Connect to construct</p>
 						</div>
 					</div>
 				</div>
@@ -588,7 +589,7 @@
 						 <option value="">Gender</option>	
 						  <option value="male">Male</option>
 						  <option value="female">Female</option>
-						  <option value="other">other</option>
+						  <option value="other">Other</option>
 						</select>
 						<input type="email" class="form-control" id="email" name="email" placeholder="E-mail">
 						<input type="text" class="form-control" id="number" name="number" placeholder="Contact Number">
@@ -598,7 +599,7 @@
 						  <option value="graduate">Graduate</option>
 						  <option value="pg">PG</option>
 						  <option value="phd">PhD</option>
-						  <option value="other">other</option>
+						  <option value="other">Other</option>
 						</select>
 						<input type="text" class="form-control" id="exp" name="exp" placeholder="Professional Experience">
 						
@@ -666,7 +667,7 @@
 					</div>
 					<div class="col-md-6">
 					<div class="mb20">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m22!1m8!1m3!1d3499.619175763095!2d77.12195756508416!3d28.7010363823908!3m2!1i1024!2i768!4f13.1!4m11!3e2!4m3!3m2!1d28.701175!2d77.124106!4m5!1s0x390d03e0b79e971d%3A0x517d622193665a1f!2sB4-62%2C+Rohini+Sector+8+Rd!3m2!1d28.7010559!2d77.1242807!5e0!3m2!1sen!2s!4v1490360951191" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.6183662982435!2d77.1220866501933!3d28.701060587641514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03e0b79e971d%3A0x517d622193665a1f!2sB4-62%2C+Rohini+Sector+8+Rd%2C+Pocket+7%2C+Sector+8B%2C+Sector+8%2C+Rohini%2C+Delhi%2C+110085!5e0!3m2!1sen!2sin!4v1490941067904" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 					</div>
 						<!--p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor.
 </p-->
