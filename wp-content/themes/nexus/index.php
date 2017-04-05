@@ -217,7 +217,7 @@
 					<div class="col-md-12">
 						<div class="section-title st-center">
 							<h3>What we do</h3>
-							<p>Our Awesome Services</p>
+							<p>At G2G, we believe in bringing value for money not for our clients alone but for their customers as well.</p>
 						</div>
 						<div class="block">
 							<?php echo $serviceContent ; ?>
@@ -576,8 +576,8 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="section-title st-center">
-							<h3>Career</h3>
-							<p>WE BELIEVE in C2C : Connect to construct</p>
+							<h3>We Believe in C2C: Connect to Construct</h3>
+							<p>We invite the ignited minds to work with us and different capacities at different levels ranging from interns to senior consultants and associates.</p>
 						</div>
 					</div>
 				</div>

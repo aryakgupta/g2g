@@ -400,8 +400,8 @@ h3 {font-size:20px;  letter-spacing: 0.5px; font-weight:bold}
 .section-title p {
   font-family:'Montserrat', sans-serif;
   color: #000;
-  font-size: 42px;
-  line-height: 58px;
+  font-size: 20px;
+  line-height: 30px;
   font-weight: 700;
   letter-spacing:normal;
 }
@@ -1059,7 +1059,7 @@ h3 {font-size:20px;  letter-spacing: 0.5px; font-weight:bold}
 
 .service p{margin-bottom:0px}
 
-.service .block{ padding:35px 0px 65px 0px; color:#000; line-height:1.6em; color:#999}
+.service .block{ padding:0px 0px 65px 0px; color:#000; line-height:1.6em; color:#999}
 
 .st-feature {
   text-align: center;
@@ -1100,8 +1100,12 @@ h3 {font-size:20px;  letter-spacing: 0.5px; font-weight:bold}
 .features-desc {
   padding: 0;
   background:#f8f8f8;
-  text-align:center
+  
 
+}
+
+.features-desc h3{
+  text-align:center;
 }
 
 .features-desc .block{ padding-top:40px; }

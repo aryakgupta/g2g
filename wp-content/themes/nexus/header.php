@@ -47,13 +47,13 @@
 					<div class="collapse navbar-collapse main-nav" id="sept-main-nav">
 						<ul class="nav navbar-nav navbar-right">
 							<li class="active"><a href="#home">Home</a></li>
-							<li><a href="#about">About</a></li>
+							<li><a href="#about">About Us</a></li>
 							<li><a href="#vision">Vision</a></li>
 							<li><a href="#service">Services</a></li>
 							<li><a href="#testimonials">Testimonies</a></li>
 							<li><a href="#career">Career</a></li>
 							<!--li><a href="#blog">Blog</a></li-->
-							<li><a href="#contact">Contact Us</a></li>
+							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
 				</div>
